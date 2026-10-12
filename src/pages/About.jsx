@@ -1,5 +1,6 @@
 import { Linkedin, Twitter } from 'lucide-react'
 import { timeline, team, fundAllocation } from '../data/mockData.js'
+import side from "../../pictures/lagosaddress.jpg"
 
 export default function About() {
   return (
@@ -9,22 +10,25 @@ export default function About() {
         <div className="section-pad flex flex-col justify-center bg-sand-50">
           <p className="eyebrow">Our mission</p>
           <h1 className="font-display text-4xl md:text-5xl font-semibold mt-3 leading-tight">
-            We don\u2019t hand out aid. We build what outlasts us.
+            We Are On A Mission To Help The Helpless
           </h1>
           <p className="mt-6 text-ink-700 leading-relaxed">
-            Wellspring exists to close the gap between emergency relief and lasting independence.
-            Every well, classroom, and clinic we build is designed with an exit plan — a point where
-            the community runs it, funds it, and owns it outright.
+            The JOEL OJO FATUNSIN ADEBOLU FOUNDATION (JOFA) was founded in 2023 and
+             registered on the 13th of July, 2023 with Corporate Affairs Commission (CAC)
+              of the Federal Republic of Nigeria with Registration No. 7052769,
+               as a Not for Profit and non-political Organization.
           </p>
           <p className="mt-4 text-ink-700 leading-relaxed">
-            We started in 2011 with a single water well in Turkana County, Kenya. Fifteen years later,
-            we work across 12 countries — but the model hasn\u2019t changed: listen first, build with local
-            hands, and measure success by what happens after we leave.
+           At JOFA, we believe that every individual deserves a chance to thrive.
+            Our mission is to uplift and empower the underprivileged by 
+            equipping them with the tools they need—through education, skill development, 
+            and innovative thinking. We’re not just meeting needs; we’re building people 
+            who can create lasting change in their communities and beyond.
           </p>
         </div>
         <div
           className="min-h-[360px] bg-cover bg-center"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6f?q=80&w=1600&auto=format&fit=crop')" }}
+          style={{ backgroundImage: `url("${side}")` }}
         />
       </section>
 
@@ -33,7 +37,7 @@ export default function About() {
         <div className="max-w-4xl mx-auto">
           <p className="eyebrow">Our history</p>
           <h2 className="font-display text-3xl md:text-4xl font-semibold mt-3 text-sand-50">
-            Fifteen years, one village at a time
+            Three years, one village at a time
           </h2>
 
           <div className="mt-14 relative pl-8 border-l border-teal-800">
@@ -78,7 +82,7 @@ export default function About() {
       </section>
 
       {/* TRANSPARENCY */}
-      <section className="bg-teal-900 section-pad">
+      {/* <section className="bg-teal-900 section-pad">
         <div className="max-w-4xl mx-auto">
           <p className="eyebrow">Transparency</p>
           <h2 className="font-display text-3xl md:text-4xl font-semibold mt-3 text-sand-50">
@@ -106,7 +110,7 @@ export default function About() {
             training. We publish an audited financial report every year.
           </p>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

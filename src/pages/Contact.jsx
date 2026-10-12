@@ -223,21 +223,21 @@ export default function Contact() {
               <MapPin className="h-5 w-5 text-forest-700 shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-sm">Headquarters</p>
-                <p className="text-sm text-ink-700/70">128 Meridian Ave, Suite 4, Nairobi, Kenya</p>
+                <p className="text-sm text-ink-700/70">3, Joel Adebolu Street Ikorodu, Lagos, Nigeria</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Phone className="h-5 w-5 text-forest-700 shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-sm">Phone</p>
-                <p className="text-sm text-ink-700/70">+254 (0) 700 123 456</p>
+                <p className="text-sm text-ink-700/70">+234 (0) 903 1455 536</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Mail className="h-5 w-5 text-forest-700 shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-sm">Email</p>
-                <p className="text-sm text-ink-700/70">hello@wellspring.org</p>
+                <p className="text-sm text-ink-700/70">jofafoundations@gmail.com</p>
               </div>
             </div>
           </div>
@@ -249,7 +249,7 @@ export default function Contact() {
             />
             <div className="relative flex flex-col items-center gap-2 text-ink-700">
               <MapPin className="h-8 w-8 text-forest-700" />
-              <span className="text-sm font-medium bg-white/90 px-3 py-1 rounded-full">Map placeholder — Nairobi, Kenya</span>
+              <span className="text-sm font-medium bg-white/90 px-3 py-1 rounded-full">Map placeholder — Lagos, Nigeria</span>
             </div>
           </div>
         </div>

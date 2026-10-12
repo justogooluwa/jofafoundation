@@ -1,3 +1,14 @@
+import education from "../../pictures/WhatsApp Image 2026-10-10 at 12.36.54 (1).jpeg"
+import reachingout from "../../pictures/WhatsApp Image 2026-10-10 at 12.36.55 (2).jpeg"
+import food from "../../pictures/WhatsApp Image 2026-10-10 at 12.37.01 (1).jpeg"
+import team1 from "../../pictures/69-BUKZCg8U.jpg"
+import team2 from "../../pictures/87-DE1s_uTY.jpg"
+import team3 from "../../pictures/team6-2tx4_gG8.jpg"
+import team4 from "../../pictures/staff3-B5Ggg-H3.jpg"
+import team5 from "../../pictures/staff1-ZOOmnFYC.jpg"
+
+
+
 export const stats = [
   { label: 'Lives Impacted', value: 10400, suffix: '+' },
   { label: 'Active Projects', value: 54, suffix: '+' },
@@ -8,26 +19,26 @@ export const stats = [
 export const pillars = [
   {
     id: 'water',
-    title: 'Clean Water',
-    desc: 'Wells, filtration systems, and water-safety training so families stop losing hours — and health — to dirty water.',
+    title: 'Youth Development & Mentorship',
+    desc: 'We invest in young people by encouraging leadership, personal growth, mentorship, and positive participation in society.',
     icon: 'Droplets',
   },
   {
     id: 'education',
     title: 'Education',
-    desc: 'Classrooms, teacher training, and scholarships that keep kids in school through the years that matter most.',
+    desc: 'We believe every child deserves access to quality education, regardless of their background.',
     icon: 'BookOpen',
   },
   {
     id: 'health',
     title: 'Healthcare',
-    desc: 'Mobile clinics and community health workers bringing basic care within walking distance.',
+    desc: 'We are committed to improving community well-being by supporting health awareness, preventive healthcare, medical outreach, and access to essential health services, especially for underserved populations.',
     icon: 'HeartPulse',
   },
   {
     id: 'livelihoods',
     title: 'Livelihoods',
-    desc: 'Microloans, farming co-ops, and trade training that turn short-term aid into long-term independence.',
+    desc: 'No one should have to go to bed hungry. We support vulnerable individuals and families by providing food assistance and promoting initiatives that improve access to nutritious meals and help communities fight hunger.',
     icon: 'Sprout',
   },
 ]
@@ -35,43 +46,44 @@ export const pillars = [
 export const stories = [
   {
     id: 1,
-    title: 'A well changes a village\u2019s morning',
-    excerpt: 'In Kibera, the walk for water used to take three hours. Now it takes three minutes — and the girls who made that walk are back in class.',
-    image: 'https://images.unsplash.com/photo-1541544741938-0af808871cc0?q=80&w=1200&auto=format&fit=crop',
-    date: 'June 2026',
-    category: 'Clean Water',
-  },
-  {
-    id: 2,
-    title: 'The first class of Amina Primary',
-    excerpt: 'Forty children started school this spring in a building that didn\u2019t exist a year ago, taught by two teachers Wellspring trained.',
-    image: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1200&auto=format&fit=crop',
-    date: 'May 2026',
+    title: 'Education for All',
+    excerpt: 'We believe every child deserves access to quality education, regardless of their background. Through educational support, school supplies, scholarships, and learning opportunities, we aim to empower the next generation with the knowledge and skills to build a brighter future.',
+    image: education,
+    date: 'Dec 2025',
     category: 'Education',
   },
   {
+    id: 2,
+    title: 'Child Welfare & Protection',
+    excerpt: 'Every child deserves safety, dignity, and the opportunity to thrive. We aim to support vulnerable children through care initiatives, access to basic needs, educational assistance, and efforts that promote their well-being and development.',
+    image: reachingout,
+    date: 'Dec 2025',
+    category: 'Welfare',
+  },
+  {
     id: 3,
-    title: 'From aid to income: the Terai co-op',
-    excerpt: 'Eighteen families pooled a Wellspring microloan into a shared rice mill. This season, all eighteen turned a profit.',
-    image: 'https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?q=80&w=1200&auto=format&fit=crop',
-    date: 'April 2026',
-    category: 'Livelihoods',
+    title: 'Food Security & Hunger Relief',
+    excerpt: 'No one should have to go to bed hungry. We support vulnerable individuals and families by providing food assistance and promoting initiatives that improve access to nutritious meals and help communities fight hunger.',
+    image: food,
+    date: 'Jan 2026',
+    category: 'Food',
   },
 ]
 
 export const timeline = [
-  { year: '2011', title: 'Founded in a spare room', desc: 'Three friends, one well-drilling rig, and a single village in Kenya.' },
-  { year: '2014', title: 'First school built', desc: 'Wellspring Primary opens its doors to 60 students in Turkana County.' },
-  { year: '2018', title: 'Crossed into 6 countries', desc: 'Programs expand into South Asia and Central America.' },
-  { year: '2022', title: 'Livelihoods program launched', desc: 'Microloan and co-op model rolled out to 40 communities.' },
-  { year: '2026', title: '10,000+ lives touched', desc: 'Today, 54 active projects across 12 countries.' },
+  { year: '2023', title: 'Founded in Lagos, Nigeria', desc: 'JOFA Foundation began with a simple vision: to make a meaningful difference in peoples lives by supporting vulnerable individuals and creating opportunities for underserved communities.' },
+  { year: '2023', title: 'Clothing & Essential Donations', desc: 'We began supporting vulnerable individuals and families by sharing clothes and essential items to help meet their everyday needs and restore dignity.' },
+  { year: '2024', title: 'Education & Book Donations', desc: 'We support childrens education by providing books and learning materials, helping young people access educational resources and build a brighter future.' },
+  { year: '2025', title: 'Food & Household Provisions', desc: 'We extend a helping hand to families in need by distributing food and essential household provisions to support their daily living and improve their well-being.' },
+  { year: '2026', title: 'Community Outreach & Empowerment', desc: 'We continue to reach underserved communities through charitable activities, donations, and initiatives designed to inspire hope and create positive change.' },
 ]
 
 export const team = [
-  { name: 'Amara Okafor', role: 'Executive Director', image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=600&auto=format&fit=crop' },
-  { name: 'Daniel Reyes', role: 'Director of Programs', image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=600&auto=format&fit=crop' },
-  { name: 'Priya Nair', role: 'Head of Water Initiatives', image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=600&auto=format&fit=crop' },
-  { name: 'Tomas Berg', role: 'Finance & Transparency Lead', image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=600&auto=format&fit=crop' },
+  { name: 'Fatunsin Adeleye Ezeikel', role: 'Founder & Executive Director', image: team1 },
+  { name: 'Fatunsin Adebisi Gideon', role: 'Deputy Director', image: team2 },
+  { name: 'Adebolu Femi', role: 'Programmes Coordinator', image: team5 },
+  { name: 'Akinyemi Akinleye Isaac', role: 'Community Outreach Coordinator', image: team3 },
+  { name: 'Babatunde Akinlabi Athony', role: 'Finance & Administration Officer', image: team4  },
 ]
 
 export const fundAllocation = [

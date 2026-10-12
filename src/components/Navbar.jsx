@@ -36,7 +36,7 @@ export default function Navbar() {
             <Droplet className="h-5 w-5 text-gold-400" strokeWidth={2.5} />
             <span className="absolute inset-0 rounded-full border border-gold-400/50 group-hover:animate-ripple" />
           </span>
-          <span className="font-display text-2xl font-semibold tracking-tight">Wellspring</span>
+          <span className="font-display text-2xl font-semibold tracking-tight">Jofa Foundation</span>
         </NavLink>
 
         <ul className="hidden lg:flex items-center gap-8 font-body text-sm font-medium">

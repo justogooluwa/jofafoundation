@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom'
 import { ArrowRight, Droplets, BookOpen, HeartPulse, Sprout } from 'lucide-react'
 import { stats, pillars, stories } from '../data/mockData.js'
 import { WaveDivider, AnimatedCounter } from '../components/UI.jsx'
+import education from "../../pictures/WhatsApp Image 2026-10-10 at 12.36.54 (1).jpeg"
 
 const icons = { Droplets, BookOpen, HeartPulse, Sprout }
 
@@ -14,18 +15,19 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center opacity-40"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=2000&auto=format&fit=crop')",
+              `url("${education}")`
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-teal-950 via-teal-950/70 to-teal-950/30" />
         <div className="relative section-pad !pt-32 !pb-24 max-w-4xl">
           <p className="eyebrow mb-5 animate-rise">Clean water. Real futures.</p>
           <h1 className="font-display text-5xl md:text-7xl leading-[1.05] text-sand-50 font-semibold animate-rise [animation-delay:100ms]">
-            Every well we dig gives a village back its mornings.
+            Giving Help To Those Who Needs It.
           </h1>
           <p className="mt-6 text-lg text-sand-100/80 max-w-xl animate-rise [animation-delay:200ms]">
-            Wellspring builds clean water access, s, and sustainable livelihoods in communities
-            that need them most — and shows you exactly where every dollar goes.
+           At JOFA, we believe that every individual deserves a chance to thrive.
+            Our mission is to uplift and empower the underprivileged by equipping them with 
+            the tools they need—through education, skill development, and innovative thinking.
           </p>
           <div className="mt-9 flex flex-wrap gap-4 animate-rise [animation-delay:300ms]">
             <NavLink to="/contact" className="btn-primary text-base">
@@ -57,7 +59,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <p className="eyebrow">What we do</p>
           <h2 className="font-display text-3xl md:text-4xl font-semibold mt-3 max-w-xl">
-            Four pillars, one goal: communities that don\u2019t need us anymore.
+            At JOFA, we believe that every individual deserves a chance to thrive.
+             Our mission is to uplift and empower the underprivileged by equipping 
+             them with the tools they need—through education, skill development, 
+             and innovative thinking.
           </h2>
 
           <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

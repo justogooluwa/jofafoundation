@@ -8,10 +8,10 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-2 text-sand-50 mb-3">
             <Droplet className="h-5 w-5 text-gold-400" />
-            <span className="font-display text-xl font-semibold">Wellspring</span>
+            <span className="font-display text-xl font-semibold">Jofa Foundation</span>
           </div>
           <p className="text-sm leading-relaxed max-w-xs">
-            Clean water, classrooms, and livelihoods for communities building their own way forward.
+           At JOFA Foundation, we believe every individual deserves the opportunity to live a healthy, dignified, and fulfilling life.
           </p>
         </div>
 
@@ -28,10 +28,10 @@ export default function Footer() {
         <div>
           <h4 className="eyebrow mb-4">Contact</h4>
           <ul className="space-y-2 text-sm">
-            <li>128 Meridian Ave, Suite 4</li>
-            <li>Nairobi, Kenya</li>
-            <li>+254 (0) 700 123 456</li>
-            <li>hello@wellspring.org</li>
+            <li>3, Joel Adebolu Street Ikorodu</li>
+            <li>Lagos, Nigeria</li>
+            <li>+234 (0) 903 1455 536</li>
+            <li>jofafoundations@gmail.com</li>
           </ul>
         </div>
 
@@ -53,8 +53,8 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto mt-12 pt-6 border-t border-sand-50/10 text-xs text-sand-100/50 flex flex-col md:flex-row justify-between gap-2">
-        <span>© 2026 Wellspring. All rights reserved.</span>
-        <span>This is a prototype demo site — all data is simulated.</span>
+        <span>© 2026 JofaFoundation. All rights reserved.</span>
+        {/* <span>This is a prototype demo site — all data is simulated.</span> */}
       </div>
     </footer>
   )
