@@ -250,7 +250,7 @@ export default function GetInvolved() {
           Bring your skills to the field
         </h1>
         <p className="mt-4 text-sand-100/70 max-w-xl">
-          Whether it\u2019s three hours a week from home or three months on-site, there\u2019s a role built for your schedule.
+          
         </p>
       </section>
 

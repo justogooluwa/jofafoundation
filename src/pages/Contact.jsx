@@ -38,7 +38,7 @@ function ContactForm() {
         <div className="absolute inset-0 bg-white/95 rounded-2xl flex flex-col items-center justify-center text-center p-8 z-10 animate-rise">
           <CheckCircle2 className="h-12 w-12 text-forest-700" />
           <h3 className="font-display text-xl font-semibold mt-3">Message sent</h3>
-          <p className="text-sm text-ink-700 mt-1">We\u2019ll get back to you within two business days.</p>
+          <p className="text-sm text-ink-700 mt-1">We would get back to you within two business days.</p>
         </div>
       )}
       <h3 className="font-display text-2xl font-semibold mb-6">Send us a message</h3>
@@ -83,7 +83,7 @@ function ContactForm() {
           {errors.message && <p className="text-xs text-red-600 mt-1">{errors.message}</p>}
         </div>
         <button type="submit" disabled={submitting} className="btn-dark w-full">
-          {submitting ? <><Spinner className="h-4 w-4" /> Sending\u2026</> : 'Send Message'}
+          {submitting ? <><Spinner className="h-4 w-4" /> Sending</> : 'Send Message'}
         </button>
       </form>
     </div>
@@ -126,8 +126,8 @@ function DonationPortal() {
   }
 
   return (
-    <div className="card p-8 bg-teal-950 !border-teal-800">
-      <h3 className="font-display text-2xl font-semibold text-sand-50 mb-6">Make a donation</h3>
+    <div>
+      {/* <h3 className="font-display text-2xl font-semibold text-sand-50 mb-6">Make a donation</h3>
 
       <div className="flex gap-2 mb-6">
         {['once', 'monthly'].map((f) => (
@@ -194,7 +194,7 @@ function DonationPortal() {
           {submitting ? <><Spinner className="h-4 w-4" /> Processing\u2026</> : `Donate $${finalAmount || 0} ${frequency === 'monthly' ? '/mo' : ''}`}
         </button>
         <p className="text-xs text-sand-100/40 text-center">This is a demo checkout — no real payment is processed.</p>
-      </form>
+      </form> */}
     </div>
   )
 }
@@ -205,7 +205,7 @@ export default function Contact() {
       <section className="bg-teal-950 section-pad !pb-14">
         <p className="eyebrow">Contact & donate</p>
         <h1 className="font-display text-4xl md:text-5xl font-semibold mt-3 text-sand-50 max-w-2xl">
-          Let\u2019s get water where it\u2019s needed
+          Reach Out To Us
         </h1>
       </section>
 
@@ -230,7 +230,7 @@ export default function Contact() {
               <Phone className="h-5 w-5 text-forest-700 shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-sm">Phone</p>
-                <p className="text-sm text-ink-700/70">+234 (0) 903 1455 536</p>
+                <p className="text-sm text-ink-700/70">+234 (0) 806 765 1471</p>
               </div>
             </div>
             <div className="flex items-start gap-3">

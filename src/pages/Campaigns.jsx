@@ -1,13 +1,12 @@
 import { useState, useMemo } from 'react'
 import { MapPin } from 'lucide-react'
 import { projects as initialProjects } from '../data/mockData.js'
-import { useLocalStorage } from '../hooks/useLocalStorage.js'
 import ProjectModal from '../components/ProjectModal.jsx'
 
 const filters = ['All', 'Active', 'Urgent', 'Completed']
 
 export default function Campaigns() {
-  const [projects, setProjects] = useLocalStorage('wellspring_projects', initialProjects)
+  const [projects, setProjects] = useState(initialProjects)
   const [filter, setFilter] = useState('All')
   const [selected, setSelected] = useState(null)
 
@@ -74,7 +73,7 @@ export default function Campaigns() {
                     <h3 className="font-display text-lg font-semibold leading-snug">{p.title}</h3>
                     <p className="mt-2 text-sm text-ink-700/80 leading-relaxed line-clamp-3">{p.desc}</p>
 
-                    <div className="mt-5">
+                    {/* <div className="mt-5">
                       <div className="flex justify-between text-xs mb-1.5">
                         <span className="font-mono text-forest-700">${p.raised.toLocaleString()}</span>
                         <span className="text-ink-700/50">of ${p.goal.toLocaleString()}</span>
@@ -82,11 +81,11 @@ export default function Campaigns() {
                       <div className="h-2 rounded-full bg-sand-200 overflow-hidden">
                         <div className="h-full bg-forest-700 rounded-full transition-all duration-700" style={{ width: `${pct}%` }} />
                       </div>
-                    </div>
+                    </div> */}
 
-                    <button onClick={() => setSelected(p)} className="btn-dark w-full mt-5 mt-auto">
+                    {/* <button onClick={() => setSelected(p)} className="btn-dark w-full mt-5 mt-auto">
                       Support Project
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               )

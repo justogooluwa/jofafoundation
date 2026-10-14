@@ -30,7 +30,7 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             <li>3, Joel Adebolu Street Ikorodu</li>
             <li>Lagos, Nigeria</li>
-            <li>+234 (0) 903 1455 536</li>
+            <li>+234 (0) 806 765 1471</li>
             <li>jofafoundations@gmail.com</li>
           </ul>
         </div>

@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div>
       {/* MISSION / VISION SPLIT */}
-      <section className="grid grid-cols-1 lg:grid-cols-2">
+      <section className="grid grid-cols-1 lg:grid-cols-2"> 
         <div className="section-pad flex flex-col justify-center bg-sand-50">
           <p className="eyebrow">Our mission</p>
           <h1 className="font-display text-4xl md:text-5xl font-semibold mt-3 leading-tight">
